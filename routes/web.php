@@ -17,11 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/test', function () {
     return view('test');
-
-Route::get('/chamith', function () {
-    return view('welcometo chamith !!! ');
-
 });
